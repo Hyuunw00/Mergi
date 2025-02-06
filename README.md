@@ -29,38 +29,25 @@
 
 ## 💻 Tech Stack
 
-![pnpm](https://img.shields.io/badge/pnpm-10.8.3-%23CB3837?logo=pnpm)
+![pnpm](https://img.shields.io/badge/pnpm-10.0.0-%23CB3837?logo=pnpm)
 ![vue](https://img.shields.io/badge/vue-3.5.13-%234FC08D?logo=vuedotjs)
 ![tailwind](https://img.shields.io/badge/tailwind-3.4.17-%2306B6D4?logo=tailwindcss)
 
 **라이브러리**  
-![supabase](https://img.shields.io/badge/supabase-2.6.0-%233FCF8E?logo=supabase)
+![supabase](https://img.shields.io/badge/supabase-2.47.16-%233FCF8E?logo=supabase)
 ![tailwind-merge](https://img.shields.io/badge/tailwind%20merge-2.6.0-%2306B6D4?logo=tailwindcss)
-![swiper](https://img.shields.io/badge/swiper-11.1.15-%23104E8B?logo=swiper)
-![vue-toastify](https://img.shields.io/badge/vue-toastify-11.1.15-%23104E8B?logo=vue-toastify)
+![swiper](https://img.shields.io/badge/swiper-11.2.2-%23104E8B?logo=swiper)
+
+![prime_vue](https://img.shields.io/badge/prime_vue-4.2.5-%23104E8B?logo=primevue)
+![quill](https://img.shields.io/badge/quill-2.0.3-%23104E8B?logo=quill)
+![vue_toastify](https://img.shields.io/badge/vue_toastify-0.2.8-%23104E8B?logo=vuetoastify)
+![tanstack_query](https://img.shields.io/badge/tanstack_query-0.2.8-%234FC08D?logo=tanstack)
+
 
 
 **협업툴**  
 [![My Skills](https://skillicons.dev/icons?i=figma,github,notion&theme=light)](https://skillicons.dev)
 
-### Froentend
-  
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&flat-square&logo=Vue.js&logoColor=white"> <img src="https://img.shields.io/badge/vue_router-4FC08D?style=for-the-badge&logo=vue-router&logoColor=white"> <img src="https://shields.io/badge/supabase-black?logo=primevue&style=for-the-badge"> <img src="https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"> 
-
-### Utility
-<img src="https://img.shields.io/badge/vue3_toastify-4B32C3?style=for-the-badge&logo=vue3_toastify&logoColor=white"> <img src="https://img.shields.io/badge/quill-00BFFF?style=for-the-badge&logo=quill&logoColor=white">
-
-### Data & API
- <img src="https://img.shields.io/badge/tanstack-DD0031?style=for-the-badge&logo=tanstack&logoColor=white"> <img src="https://img.shields.io/badge/pinia-FFD700?style=for-the-badge&logo=pinia&logoColor=white"> <img src="https://shields.io/badge/supabase-black?logo=supabase&style=for-the-badge">
-
-### Code Quality Tools
-<img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white">
-
-### Package Manager
-<img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white">
-
-### Productivity Tools
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 
 <br/>
 
@@ -106,5 +93,6 @@
 ### 🔫 Solution
 ![image 133](https://github.com/user-attachments/assets/5c3ddae8-b841-464f-88c4-bcc0c087cae1)![image 28](https://github.com/user-attachments/assets/0c77dcf5-6b84-4ae8-be34-c48975d76253)
 - onMounted훅을 사용하지 않고 watch 함수를 사용해 게시글 신청여부 데이터가 업데이트 됨을 감지해 UI를 업데이트 하는 로직을 사용하여 비동기적으로 데이터를 받아온 이후에도 정상적으로 신청취소 UI가 변경되도록 수정했습니다.
+
 
 
