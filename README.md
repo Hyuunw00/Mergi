@@ -2,7 +2,8 @@
 
 <img src="https://github.com/user-attachments/assets/86c8265c-d6c0-43b8-8a17-d2553886c536" width="100%">
 
-프로젝트 링크 : https://rivervue-mergi.netlify.app/
+- 프로젝트 기간 : 2025-01-13 ~ 2025-02-04
+- 프로젝트 링크 : https://rivervue-mergi.netlify.app/
 
 <br/>
 
@@ -27,12 +28,27 @@
 
 
 ## 💻 Tech Stack
+
+![pnpm](https://img.shields.io/badge/pnpm-10.8.3-%23CB3837?logo=pnpm)
+![vue](https://img.shields.io/badge/vue-3.5.13-%234FC08D?logo=vuedotjs)
+![tailwind](https://img.shields.io/badge/tailwind-3.4.17-%2306B6D4?logo=tailwindcss)
+
+**라이브러리**  
+![supabase](https://img.shields.io/badge/supabase-2.6.0-%233FCF8E?logo=supabase)
+![tailwind-merge](https://img.shields.io/badge/tailwind%20merge-2.6.0-%2306B6D4?logo=tailwindcss)
+![swiper](https://img.shields.io/badge/swiper-11.1.15-%23104E8B?logo=swiper)
+![vue-toastify](https://img.shields.io/badge/vue-toastify-11.1.15-%23104E8B?logo=vue-toastify)
+
+
+**협업툴**  
+[![My Skills](https://skillicons.dev/icons?i=figma,github,notion&theme=light)](https://skillicons.dev)
+
 ### Froentend
   
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&flat-square&logo=Vue.js&logoColor=white"> <img src="https://img.shields.io/badge/vue_router-4FC08D?style=for-the-badge&logo=vue-router&logoColor=white"> <img src="https://shields.io/badge/supabase-black?logo=primevue&style=for-the-badge"> <img src="https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"> 
 
 ### Utility
-<img src="https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white"> <img src="https://img.shields.io/badge/vue3_toastify-4B32C3?style=for-the-badge&logo=vue3_toastify&logoColor=white"> <img src="https://img.shields.io/badge/quill-00BFFF?style=for-the-badge&logo=quill&logoColor=white">
+<img src="https://img.shields.io/badge/vue3_toastify-4B32C3?style=for-the-badge&logo=vue3_toastify&logoColor=white"> <img src="https://img.shields.io/badge/quill-00BFFF?style=for-the-badge&logo=quill&logoColor=white">
 
 ### Data & API
  <img src="https://img.shields.io/badge/tanstack-DD0031?style=for-the-badge&logo=tanstack&logoColor=white"> <img src="https://img.shields.io/badge/pinia-FFD700?style=for-the-badge&logo=pinia&logoColor=white"> <img src="https://shields.io/badge/supabase-black?logo=supabase&style=for-the-badge">
@@ -48,19 +64,6 @@
 
 <br/>
 
-## ✏️ Code Convention 
-### Commit Message
-- 🚨 Fix: [수정 대상] - [수정 내용]
-- ✨ Feat: 새로운 기능 추가, 사용자 입장에서 변화가 있을 경우
-- 🎉 Init: 프로젝트 초기 생성
-- 📝 Chore: 그 외 자잘한 수정에 대한 커밋, 주석, 의존성 설치, 리드미 수정
-- 💄 Style: CSS, styled-component 스타일 관련 변경
-- 🔨 Refactor: 코드 리팩토링에 대한 커밋, 사용자 입장에서 변화가 없는 코드, 파일명 폴더명 변경 및 이동 
-- 🗑️ Remove: 파일을 삭제하는 작업만 수행하는 경우
-- ♻️ Format: 코드 포맷팅 변경에 관련된 작업
-- 🎨 improve: 코드 구조나 사용자 경험을 개선하는 경우 
-
-<br/>
 
 ## 📂 Folder Structure
 ![Group 174](https://github.com/user-attachments/assets/cee29f86-02ad-4862-84e6-4fcfb4378cb6)
