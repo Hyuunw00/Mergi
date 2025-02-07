@@ -36,12 +36,12 @@
 **라이브러리**  
 ![supabase](https://img.shields.io/badge/supabase-2.47.16-%233FCF8E?logo=supabase)
 ![tailwind-merge](https://img.shields.io/badge/tailwind%20merge-2.6.0-%2306B6D4?logo=tailwindcss)
-![swiper](https://img.shields.io/badge/swiper-11.2.2-%23104E8B?logo=swiper)
 
+![swiper](https://img.shields.io/badge/swiper-11.2.2-%23104E8B?logo=swiper)
 ![prime_vue](https://img.shields.io/badge/prime_vue-4.2.5-%23104E8B?logo=primevue)
 ![quill](https://img.shields.io/badge/quill-2.0.3-%23104E8B?logo=quill)
 ![vue_toastify](https://img.shields.io/badge/vue_toastify-0.2.8-%23104E8B?logo=vuetoastify)
-![tanstack_query](https://img.shields.io/badge/tanstack_query-0.2.8-%234FC08D?logo=tanstack)
+![tanstack_query](https://img.shields.io/badge/tanstack_vue_query-5.64.2-%23104E8B?logo=tanstack)
 
 
 
