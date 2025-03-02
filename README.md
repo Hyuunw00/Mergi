@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/86c8265c-d6c0-43b8-8a17-d2553886c536" width="100%">
 
 - 프로젝트 기간 : 2025-01-13 ~ 2025-02-04
-- 프로젝트 링크 : https://rivervue-mergi.netlify.app/
+- 프로젝트 링크 : https://merggi.netlify.app/
 
 
 <br/>
@@ -22,7 +22,7 @@
 |:----:|:----:|:----:|:----:|:----:|:----:|
 |<img src="https://github.com/user-attachments/assets/25a4b528-8685-4944-9e13-5d9bba78abeb"  width="150"/> | <img src="https://avatars.githubusercontent.com/u/96560273?v=4"  width="150"/> | <img src="https://ca.slack-edge.com/T07RW3KV8GG-U07RB0H86RG-9db38c136a65-512"  width="150"/> | <img src="https://avatars.githubusercontent.com/u/164971349?v=4"  width="150"/> | <img src="https://ca.slack-edge.com/T07RW3KV8GG-U07QVMSE363-9ffb08f8f25d-512"  width="150"/> | <img src="https://i.pinimg.com/originals/bc/c4/ee/bcc4eef397f5dd0d799f5317d157e753.jpg"  width="150"/> | 
 |안지원|김현우|안민하|권윤지|이예지|임승현|
-|[@wldnjs990](https://github.com/wldnjs990)|[@kodingzz](https://github.com/kodingzz)|[@AAminha](https://github.com/AAminha)|[@yoo-nji](https://github.com/yoo-nji)|[@y-yeji](https://github.com/y-yeji)|[@SeungHyeon-web](https://github.com/SeungHyeon-web)|
+|[@wldnjs990](https://github.com/wldnjs990)|[@hyuunw00](https://github.com/hyuunw00)|[@AAminha](https://github.com/AAminha)|[@yoo-nji](https://github.com/yoo-nji)|[@y-yeji](https://github.com/y-yeji)|[@SeungHyeon-web](https://github.com/SeungHyeon-web)|
 
 
 <br/>
