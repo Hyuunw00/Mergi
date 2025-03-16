@@ -34,14 +34,9 @@ const {
   selectedFilter,
   handleChangePage,
   handleUpdateFilter,
-} = usePagination(
-  fetchUserBookmarkWithPagination,
-  'filteredBookmarkPosts',
-  {
-    order: '최신순',
-  },
-  false,
-);
+} = usePagination(fetchUserBookmarkWithPagination, 'filteredBookmarkPosts', {
+  order: '최신순',
+});
 
 const handleSelectOrder = (order) => {
   handleUpdateFilter({ order });

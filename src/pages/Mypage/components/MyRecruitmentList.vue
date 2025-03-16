@@ -1,6 +1,5 @@
 <script setup>
 import PostCard from '@/components/PostCard.vue';
-import { onMounted } from 'vue';
 import { getPostsByUser } from '@/api/supabase/post';
 import { useRouter } from 'vue-router';
 import FilterDropdown from '@/components/FilterDropdown.vue';
@@ -11,15 +10,10 @@ import { storeToRefs } from 'pinia';
 import { usePagination } from '@/hooks/usePagination';
 
 const router = useRouter();
-
 const userStore = useUserStore();
 const { user } = storeToRefs(userStore);
 
 const orderFilterList = ['최신순', '오래된순', '인기순', '마감일순'];
-
-onMounted(() => {
-  fetchMyPostsWithPagination();
-});
 
 // 필터링 & 페이지네이션 처리된 게시물 불러오기
 const fetchMyPostsWithPagination = async () => {
@@ -41,14 +35,9 @@ const {
   selectedFilter,
   handleChangePage,
   handleUpdateFilter,
-} = usePagination(
-  fetchMyPostsWithPagination,
-  'filteredMyPosts',
-  {
-    order: '최신순',
-  },
-  false,
-);
+} = usePagination(fetchMyPostsWithPagination, 'filteredMyPosts', {
+  order: '최신순',
+});
 
 const handleSelectOrder = (order) => {
   handleUpdateFilter({ order });

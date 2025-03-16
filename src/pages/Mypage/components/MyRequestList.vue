@@ -32,14 +32,9 @@ const {
   refetch,
   handleChangePage,
   handleUpdateFilter,
-} = usePagination(
-  fetchMyApplyPostsWithPagination,
-  'filteredApplyPosts',
-  {
-    status: '전체',
-  },
-  false,
-);
+} = usePagination(fetchMyApplyPostsWithPagination, 'filteredApplyPosts', {
+  status: '전체',
+});
 const handleGetStatus = (status) => {
   status = status === '전체' ? null : status;
   handleUpdateFilter({ status });
