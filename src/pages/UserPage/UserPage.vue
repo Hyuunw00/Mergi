@@ -1,6 +1,6 @@
 <script setup>
 import TabMenu from '@/components/TabMenu.vue';
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import PositionSmallBadge from '@/components/PositionSmallBadge.vue';
 import { useRouter } from 'vue-router';
 import { getUserInfoToUserId } from '@/api/supabase/user';
@@ -11,6 +11,9 @@ import UserRecruitmentList from './components/UserRecruitmentList.vue';
 import { useUserStore } from '@/stores/user';
 import LoadingPage from '../LoadingPage.vue';
 import { storeToRefs } from 'pinia';
+import { useQueryClient } from '@tanstack/vue-query';
+
+const queryClient = useQueryClient();
 
 const items = ['유저 정보', '작성한 모집글', '후기/평가 목록'];
 const activeIndex = ref(0);
@@ -25,6 +28,10 @@ const userId = useRoute().params.userId;
 // 현재 로그인한 사용자(나)
 const userStore = useUserStore();
 const { user } = storeToRefs(userStore);
+
+watch(activeIndex, async () => {
+  await queryClient.invalidateQueries('filteredMyPosts');
+});
 
 onMounted(async () => {
   fetchUserinfo();

@@ -1,6 +1,6 @@
 <script setup>
 import TabMenu from '@/components/TabMenu.vue';
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import MyInfo from './components/MyInfo.vue';
 import PositionSmallBadge from '@/components/PositionSmallBadge.vue';
 import MyRecruitmentList from './components/MyRecruitmentList.vue';
@@ -13,6 +13,9 @@ import LoadingPage from '../LoadingPage.vue';
 import { useUserStore } from '@/stores/user';
 import { storeToRefs } from 'pinia';
 import { successToast } from '@/utils/toast';
+import { useQueryClient } from '@tanstack/vue-query';
+
+const queryClient = useQueryClient();
 
 const items = ['내 정보', '작성한 모집글', '신청 목록', '찜 목록'];
 const activeIndex = ref(0);
@@ -27,6 +30,10 @@ const { user } = storeToRefs(userStore);
 const handleEditProfile = () => {
   router.push('/EditProfile');
 };
+
+watch(activeIndex, async () => {
+  await queryClient.invalidateQueries('filteredMyPosts');
+});
 
 onMounted(async () => {
   // 탭의 갯수보다 큰 index 임의 조작시 0으로 강제 전환

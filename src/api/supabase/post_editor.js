@@ -87,19 +87,18 @@ export const postUploadPostImage = async (file) => {
     }
     const encodedFileName = encodeURIComponent(file.name).replace(/%/g, '');
     const exist_files = await supabase.storage.from('post_images').list('');
-    let addData = true;
-    exist_files.data.map((e) => {
-      if (e.name === encodedFileName) {
-        addData = false;
-      }
-    });
-    if (addData) {
+
+    // 파일 존재 여부 확인
+    const fileExists = exist_files.data.some((e) => e.name === encodedFileName);
+
+    // 파일이 없다면 업로드
+    if (!fileExists) {
       const { error } = await supabase.storage.from('post_images').upload(encodedFileName, file, {
         cacheControl: '3600',
         upsert: false,
       });
       if (error) {
-        throw new Error(error);
+        throw new Error(error.message);
       }
     }
 
